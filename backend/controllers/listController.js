@@ -70,7 +70,7 @@ function calculateConversionRate(currency, rateData) {
   return (exchangeRate = {
     exchangeRateToSek:
       currency.code != "EUR"
-        ? rateData.rates[currency.code] / rateData.rates[config.base]
+        ? rateData.rates[config.base] / rateData.rates[currency.code]
         : rateData.rates[config.base]
   });
 }
