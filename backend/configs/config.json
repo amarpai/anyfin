@@ -1,0 +1,24 @@
+{
+  "countryApi": {
+    "endpoint": "https://restcountries.eu/rest/v2/name/",
+    "fields": {
+      "field1": "name",
+      "field2": "population",
+      "field3": "currencies",
+      "field4": "conversion"
+    }
+  },
+
+  "ratesApi": {
+    "endpoint": "http://data.fixer.io/api/latest",
+    "accessKey": "65a46a3c3c9c4a87ab07b6a72500b80d"
+  },
+
+  "apiConfig": {
+    "expiryTime": 60000,
+    "maxUsers": 30
+  },
+
+  "base": "SEK",
+  "errorMsg": "Requested record not found."
+}
