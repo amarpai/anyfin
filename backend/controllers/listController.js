@@ -1,14 +1,14 @@
-var axios = require("axios");
-var _ = require("underscore");
-var config = require("../configs/config.json");
-var jwt = require("jsonwebtoken");
+const axios = require("axios");
+const _ = require("underscore");
+const config = require("../configs/config.json");
+const jwt = require("jsonwebtoken");
 
 exports.getCountryDetails = function(req, res) {
   jwt.verify(req.token, "secretkey", (err, authData) => {
     if (err) {
       res.sendStatus(403);
     } else {
-      var countryName = req.query.name ? req.query.name : req.params.name;
+      const countryName = req.query.name ? req.query.name : req.params.name;
 
       axios
         .all([
