@@ -1,6 +1,6 @@
 # Anyfin - Amar Pai
 
-coding sample for Anyfin
+Coding sample for Anyfin
 
 ## Configurations
 
