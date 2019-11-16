@@ -6,7 +6,7 @@ coding sample for Anyfin
 
 1. If you want to run the project in localhost then change React [Config](https://github.com/amarpai/anyfin-amar/blob/master/frontend/src/config/configs.js) file and replace amazonaws URL with localhost
 
-2. If you want to login to AWS to check the implementation use [pem](https://github.com/amarpai/anyfin-amar/blob/master/anyfin-app.pem) key to login.
+2. If you want to login to AWS to check the implementation use [ppk](https://github.com/amarpai/anyfin-amar/blob/master/anyfin.ppk) key to login.
 
 3. [Postman endpoint](https://github.com/amarpai/anyfin-amar/blob/master/getCountryDetails.postman_collection.json)
 
