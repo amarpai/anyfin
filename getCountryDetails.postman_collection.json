@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "443396ea-d39d-438c-b9c5-590254220ed9",
+		"name": "getCountryDetails",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getCountryByName",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6ImFtYXIiLCJlbWFpbCI6ImFtYXIxMDYxQGdtYWlsLmNvbSJ9LCJpYXQiOjE1NzM5MTMxMjZ9.6-FTpL3ETz53KPfDWuoo0NPHEKu5xauw5i2BJVRfNFs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://ec2-3-85-238-57.compute-1.amazonaws.com:4000/api/v1/country/france",
+					"protocol": "http",
+					"host": [
+						"ec2-3-85-238-57",
+						"compute-1",
+						"amazonaws",
+						"com"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"v1",
+						"country",
+						"france"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getJwtToken",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-3-85-238-57.compute-1.amazonaws.com:4000/api/v1/login",
+					"protocol": "http",
+					"host": [
+						"ec2-3-85-238-57",
+						"compute-1",
+						"amazonaws",
+						"com"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"v1",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
