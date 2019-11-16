@@ -1,4 +1,4 @@
-# anyfin-amar
+# Anyfin - Amar Pai
 
 coding sample for Anyfin
 
@@ -38,3 +38,13 @@ http://ec2-3-85-238-57.compute-1.amazonaws.com:3000/
 ```bash
 http://ec2-3-85-238-57.compute-1.amazonaws.com:3000/#/dashboard
 ```
+
+## NPM packages used.
+
+1) underscore
+2) axios
+3) jsonwebtoken
+4) express-rate-limit
+5) pm2 (used to start app in AWS)
+
+
