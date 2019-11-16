@@ -41,10 +41,12 @@ http://ec2-3-85-238-57.compute-1.amazonaws.com:3000/#/dashboard
 
 ## NPM packages used.
 
-1) underscore
-2) axios
-3) jsonwebtoken
-4) express-rate-limit
-5) pm2 (used to start app in AWS)
+1) express
+2) create-react-app
+3) underscore
+4) axios
+5) jsonwebtoken
+6) express-rate-limit
+7) pm2 (used to start app in AWS)
 
 
