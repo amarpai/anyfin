@@ -4,7 +4,7 @@ coding sample for Anyfin
 
 ## Configurations
 
-1. Running project in localhost change [Config](https://github.com/amarpai/anyfin-amar/blob/master/frontend/src/config/configs.js) file and replace amazonaws usrl with localhost
+1. If you want to run the project in localhost then change React [Config](https://github.com/amarpai/anyfin-amar/blob/master/frontend/src/config/configs.js) file and replace amazonaws URL with localhost
 
 2. If you want to login to AWS to check the implementation use [pem](https://github.com/amarpai/anyfin-amar/blob/master/anyfin-app.pem) key to login.
 
