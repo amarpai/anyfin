@@ -1,6 +1,6 @@
 # Anyfin - Amar Pai
 
-Coding sample for Anyfin
+Technical assignment for Anyfin
 
 ## Configurations
 
