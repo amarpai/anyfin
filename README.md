@@ -1,6 +1,4 @@
-# Anyfin - Amar Pai
-
-Technical assignment for Anyfin
+# Anyfin
 
 ## Configurations
 
